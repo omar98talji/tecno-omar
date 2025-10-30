@@ -3,34 +3,35 @@
 
   <!-- الصفحة الرئيسية -->
   <url>
-    <loc>https://omar98talji.github.io/tec-om/</loc>
-    <lastmod>2025-10-22</lastmod>
+    <loc>https://omar98talji.github.io/tecno-omar/</loc>
+    <lastmod>2025-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- عن المقالة -->
   <url>
-    <loc>https://omar98talji.github.io/tec-om/about.html</loc>
-    <lastmod>2025-10-22</lastmod>
+    <loc>https://omar98talji.github.io/tecno-omar/about.html</loc>
+    <lastmod>2025-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- المحتوى الرئيسي -->
   <url>
-    <loc>https://omar98talji.github.io/tec-om/content.html</loc>
-    <lastmod>2025-10-22</lastmod>
+    <loc>https://omar98talji.github.io/tecno-omar/content.html</loc>
+    <lastmod>2025-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- اتصل بنا -->
   <url>
-    <loc>https://omar98talji.github.io/tec-om/contact.html</loc>
-    <lastmod>2025-10-22</lastmod>
+    <loc>https://omar98talji.github.io/tecno-omar/contact.html</loc>
+    <lastmod>2025-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
 </urlset>
+
