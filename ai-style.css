@@ -1,0 +1,165 @@
+body {
+    font-family: "Tajawal", Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #3b454b;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    direction: rtl;
+    text-align: right;
+}
+
+header {
+    background: linear-gradient(to right, #29b6a6, #29b6a6);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #0d6efd;
+}
+
+.hero img,
+article img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+article {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    color: #222;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #29b6a6;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+/* فقرة اتصل بنا محسنة */
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin: 12px 0;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.contact-link .icon {
+    margin-right: 12px;
+    font-size: 24px;
+}
+
+.contact-link:hover {
+    background-color: #084298;
+    transform: scale(1.05);
+}
+
+/* متجاوب */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav a {
+        display: block;
+        font-size: 16px;
+        margin: 8px 0;
+    }
+
+    article {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    article p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .contact-link {
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 16px;
+    }
+
+    .contact-link .icon {
+        font-size: 20px;
+    }
+}
