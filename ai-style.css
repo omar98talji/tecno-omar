@@ -3,14 +3,14 @@ body{font-family:"Tajawal",Arial,sans-serif;background:#f4f7f8;color:#3b454b;mar
 
 /* ======= رأس الصفحة ======= */
 header{
-    background:#5dade2; /* أزرق فاتح */
-    color:#fff;
+    background:#dcdcdc; /* رمادي فاتح */
+    color:#000;
     text-align:center;
     padding:50px 20px;
-    text-shadow:1px 1px 3px rgba(0,0,0,.3);
+    text-shadow:1px 1px 2px rgba(0,0,0,.1);
 }
-header h1{font-size:36px;font-weight:700;margin:0;color:#fff}
-.header-subtitle{font-size:22px;font-weight:600;color:#fff;margin:10px 0 20px;text-shadow:1px 1px 2px rgba(0,0,0,.3);text-align:center}
+header h1{font-size:36px;font-weight:700;margin:0;color:#000}
+.header-subtitle{font-size:22px;font-weight:600;color:#000;margin:10px 0 20px;text-align:center}
 
 /* ======= قائمة التنقل ======= */
 nav{
@@ -26,8 +26,8 @@ nav a{
     align-items:center;
     gap:8px; /* مسافة بين الأيقونة والنص */
     padding:12px 20px;
-    background:#000; /* أسود */
-    color:#fff; /* نص أبيض */
+    background:#7ed957; /* أخضر فاتح */
+    color:#000; /* نص أسود */
     text-decoration:none;
     border-radius:8px;
     font-weight:600;
@@ -38,7 +38,7 @@ nav a .icon{
     font-size:18px;
 }
 nav a:hover{
-    background:#333;
+    background:#6bc046; /* أخضر أغمق عند المرور */
     transform:translateY(-2px);
 }
 
@@ -87,4 +87,4 @@ h3{font-size:18px}
 .contact-link{font-size:14px;padding:10px 18px}
 .contact-link .icon{font-size:20px}
 a.back{padding:6px 12px;font-size:14px}
-                    }
+}
