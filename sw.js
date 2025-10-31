@@ -2,15 +2,9 @@ const CACHE_NAME = 'ai-site-cache-v1';
 const urlsToCache = [
     '/',
     '/index.html',
-    '/css/ai-style.css',
-    '/css/normalize.css',
-    '/js/ai-script.js',
-    '/ai-personalized.jpg',
-    '/hero-ai-education.jpg',
-    '/ai-assessment.jpg',
-    '/ai-virtual-tutor.jpg',
-    '/ar-education.jpg',
-    '/ai-future-education.jpg'
+    '/ai-style.css',
+    '/normalize.css',
+    '/ai-script.js'
 ];
 
 self.addEventListener('install', event => {
